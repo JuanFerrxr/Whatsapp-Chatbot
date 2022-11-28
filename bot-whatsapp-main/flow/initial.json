@@ -1,0 +1,108 @@
+[
+    {
+        "keywords":  [
+            "hola",
+            "hola!",
+            "ola",
+            "inicio",
+            "buenos días",
+            "buenas tardes",
+            "buenas noches",
+            "me dieron este número",
+            "justicia ciudadana",
+            "buenos días quisiera información",
+            "hola?",
+            "justicia ciudadana?",
+            "necesito ayuda",
+            "menú",
+            "opciones"
+        ],
+        "key": "Menú"
+    },
+    {
+        "keywords":  [
+            "1",
+            "uno",
+            "primero",
+            "primera",
+            "1-Asesoría"
+        ],
+        "key": "Asesoría"
+    },
+    {
+        "keywords":  [
+            "jurídica",
+            "psicológica",
+            "otra"
+        ],
+        "key": "Asesoría_2"
+    },
+    {
+        "keywords":  [
+            "si"
+        ],
+        "key": "Urgente"
+    },
+    {
+        "keywords":  [
+            "no"
+        ],
+        "key": "No_Urgente"
+    },
+    {
+        "keywords":  [
+            "2",
+            "dos",
+            "segunda",
+            "segundo",
+            "2-Denuncia"
+        ],
+        "key": "Denuncia"
+    },
+    {
+        "keywords":  [
+            "3",
+            "tres",
+            "tercero",
+            "tercera",
+            "3-Cita"
+        ],
+        "key": "Agendar"
+    },
+    {
+        "keywords":  [
+            "4",
+            "cuatro",
+            "cuarto",
+            "cuarta",
+            "4-Ubicación"
+        ],
+        "key": "Ubicación"
+    },
+    {
+        "keywords":  [
+            "5",
+            "cinco",
+            "quinta",
+            "quinto",
+            "5-Dependencias"
+        ],
+        "key": "Dependencias"
+    },
+    {
+        "keywords":  [
+            "6",
+            "seis",
+            "sexta",
+            "sexto",
+            "6-Número Emergencia"
+        ],
+        "key": "911"
+    },
+    {
+        "keywords":  [
+            "listo"
+        ],
+        "key": "Listo"
+    }
+]

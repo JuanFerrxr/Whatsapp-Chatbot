@@ -1,0 +1,18 @@
+1- Los chats se guardaran en la carpeta "chats", siendo el nombre del archivo el número de teléfono
+del chat de la persona correspondientes. Los chats se guardan con el formato "mensaje", "fecha/hora".
+En un archivo .JSON que puede ser pasado a formato excel
+
+1.1- Para pasarlos facilmente a un Excel primero deben comprimirlos todos en un zip,
+y lo unico que tienen que hacer es subir el zip a esta página: https://data.page/json/csv
+y descargar el archivo en formato excel.
+
+2- El chatbot también guarda archivos como stickers, notas de voz, imágenes, etc.
+Todo esto dentro de la carpeta "media"
+
+2.1- Si no quieren guardar los archivos, deben entrar al archivo ".env" y modificar:
+SAVE_MEDIA=true -> SAVE_MEDIA=false
+
+3- El flujo de respuesta del chatbot se controla con los archivos "initial.json" y "response.json"
+los cuales se encuentran dentro de la carpeta "flow".
+Para ver como cambiar estos pueden ver el siguiente video desde el minuto 10:10 hasta el 12:08 
+https://www.youtube.com/watch?v=5lEMCeWEJ8o&ab_channel=LeiferMendez 

@@ -1,0 +1,136 @@
+{
+    "DEFAULT":{
+        "replyMessage":[
+            "¡Hola! Somos Justicia Ciudadana, nuestros horarios de atención son: \n",
+            "de *9am a 4pm para citas presenciales* y *9am a 8pm para asesorías.* \n\n",
+            "Por favor elija alguna de las siguientes opciones:\n",
+            "1. Quiero asesoría (jurídica, psicológica u otra)\n",
+            "2. Quiero hacer una denuncia \n",
+            "3. Agendar una cita en nuestras instalaciones\n",
+            "4. Ver ubicación de nuestras instalaciones\n",
+            "5. Ver dependencias gubernamentales\n",
+            "6. Ver número de emergencia\n\n",
+            "Escriba el número de la opción que quiera"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "Menú":{
+        "replyMessage":[
+            "¡Hola! Somos Justicia Ciudadana, nuestros horarios de atención son: \n",
+            "de *9am a 4pm para citas presenciales* y *9am a 8pm para asesorías.* \n\n",
+            "Por favor elija alguna de las siguientes opciones:\n",
+            "1. Quiero asesoría (jurídica, psicológica u otra)\n",
+            "2. Quiero hacer una denuncia \n",
+            "3. Agendar una cita en nuestras instalaciones\n",
+            "4. Ver ubicación de nuestras instalaciones\n",
+            "5. Ver dependencias gubernamentales\n",
+            "6. Ver número de emergencia\n\n",
+            "Escriba el número de la opción que quiera"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "Asesoría":{
+        "replyMessage":[
+            "¿Qué tipo de asesoría necesita?\n"
+        ],
+        "media":null,
+        "trigger":null,
+        "actions":{
+            "title":"Escoge una",
+            "message":"Elije la opción que quieras con los siguientes botones:",
+            "footer": null,
+            "buttons":[
+                {"body":"Jurídica"},
+                {"body":"Psicológica"},
+                {"body":"Otra"}
+            ]
+        }
+    },
+    "Asesoría_2":{
+        "replyMessage":[
+            "¿Es urgente? \n"
+        ],
+        "media": null,
+        "trigger":"Asesoría",
+        "actions":{
+            "title": null,
+            "message":"Elije la opción con los siguientes botones:",
+            "footer": null,
+            "buttons":[
+                {"body":"Si"},
+                {"body":"No"}
+            ]
+        }
+    },
+    "Urgente":{
+        "replyMessage":[
+            "Ahora solo necesito su nombre completo y número de teléfono\n",
+            "*(Escriba ambos en un solo mensaje)*\n",
+            "Alguien de justicia ciudadana se pondrá en contacto lo antes posible"
+        ],
+        "media": null,
+        "trigger":null
+    },
+    "No_Urgente":{
+        "replyMessage":[
+            "Ahora solo necesito su nombre completo y número de teléfono\n",
+            "*(Escriba ambos en un solo mensaje)*\n",
+            "Alguien de justicia ciudadana se pondrá en contacto con usted pronto"
+        ],
+        "media": null,
+        "trigger":null
+    },
+    "Denuncia":{
+        "replyMessage":[
+            "Para hacer una denuncia primero necesitamos sus datos para que\n", 
+            "alguien de Justicia Ciudadana pueda darle asesoría.\n",
+            "Por favor escriba su nombre completo y número de teléfono\n",
+            "*(Ambos en un solo mensaje)*"
+        ],
+        "media": null,
+        "trigger":null
+    },
+    "Agendar":{
+        "replyMessage":[
+            "Por favor agende una cita en la siguiente liga:\n",
+            "*Poner liga de calendly aquí*\n",
+            "Escriba “listo” cuando termine de agendar"
+
+        ],
+        "media": null,
+        "trigger":null
+    },
+    "Ubicación":{
+        "replyMessage":[
+            "C. 13 Sur 1910, Barrio de Santiago, 72410 Puebla, Pue.\n",
+            "https://goo.gl/maps/A3F7vgWikE3SnJ3w6"
+        ],
+        "media": null,
+        "trigger":null
+    },
+    "Dependencias":{
+        "replyMessage":[
+            "- Fiscalía General del estado: presentar denuncias\n",
+            "- Defensoría publica: asuntos familiares, civiles, mercantiles."
+        ],
+        "media": null,
+        "trigger":null
+    },
+    "911":{
+        "replyMessage":[
+            "Si tiene una emergencia llame al 911"
+        ],
+        "media": null,
+        "trigger":null
+    },
+    "Listo":{
+        "replyMessage":[
+            "Gracias por agendar una cita con nosotros",
+            "nos comunicaremos con usted si hay un cambio de horario"
+        ],
+        "media": null,
+        "trigger":null
+    }
+}
