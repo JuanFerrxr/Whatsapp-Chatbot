@@ -1,10 +1,6 @@
 1.- En la terminal ejecutar: npm install
 
-2.- Entrar a node_modules->whatsapp-web.js->src->util->injected.js
-y cambiar la linea 22 a:
-window.Store.GroupMetadata = window.mR.findModule('GroupMetadata')[0].default.GroupMetadata;
-
-3.- En la terminal ejecutar: npm i github:pedroslopez/whatsapp-web.js#fix-buttons-list
+2.- En la terminal ejecutar: npm i github:pedroslopez/whatsapp-web.js#fix-buttons-list
 
 3.- Para iniciar el chatbot ejecutar: npm run start
 después de un momento aparecerá un codigo QR que se debe leer en whatsapp como si se
